@@ -1,0 +1,45 @@
+body {
+    background-image: URL("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbdb4f38-94c9-45d2-bd44-a598d94a4dc0/d4gz4lh-1fc5a06f-dc74-4cc7-bb20-8146e35ee3f6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZGI0ZjM4LTk0YzktNDVkMi1iZDQ0LWE1OThkOTRhNGRjMFwvZDRnejRsaC0xZmM1YTA2Zi1kYzc0LTRjYzctYmIyMC04MTQ2ZTM1ZWUzZjYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nZ9DK7pHdUXRrbU6pLvU2HfJzeUAov47QwCaBzmRDlY");
+    font-family: Helvetica;
+}
+
+h1,
+.todo-list {
+    color: white;
+    margin: 33px;
+}
+
+#subclass-items {
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    background-color: #565b58;
+}
+
+.list-items {
+    text-align: left;
+    padding: 05% 08%;
+    list-style-type: none;
+    background-color: #618576;
+
+}
+
+a {
+    color: #c17f7f;
+}
+
+a:visited {
+    color: #e7a657;
+}
+
+a:hover {
+    color: #59cca5;
+}
+
+a:focus {
+    color: #9f68d2;
+}
+
+a:active {
+    color: #817ec2;
+}
