@@ -1,0 +1,586 @@
+BASIC HTML - REVIEW GUIDE
+HTML Basics
+    Role of HTML: Content and Structure
+    HTML Elements: Building Blocks of HTML. They represent headings, paragraphs, links, images etc.
+        Opening Tag: <Element>  Closing Tag: </Element>
+            Basic Syntax: <elementName>Content goes here</elementName>
+            Example: <p>This is a paragraph.</p>
+    Void Elements: Have no content, and therefore do not have a closing tag, they only have a opening tag.
+        Basic Syntax: <elementName> OR <elementName />
+        Examples Include: <br>, <img>, <hr>, <meta>
+    Nesting Elements: HTML elements can be nested inside one another to create a hierarchy.
+        Example: <div><p>This is a paragraph inside a div.</p></div>
+    Attributes: a value placed inside the opening tag of an HTML element, which provide additional information about the element or specify how the element should behave.
+        Basic Syntax: <element attribute="value"></element>
+      Boolean Attribute: can either be present or absent in an HTML tag. If present, the value is true otherwise it is false.
+        Examples Include: disabled, readonly, checked, required
+    Comments: used in programming to leave notes for yourself and other developers in your code. 
+        Basic Syntax: <!--This is an HTML comment.-->
+Common HTML Elements
+    Headings Elements: <h1> to <h6> are used to signify the importance of content below them. the lower the # the higher the importance.
+        Examples: <h1>most important heading element</h1>
+                  <h2>second most important heading element</h2>
+                  <h3>third most important heading element</h3>
+                  <h4>fourth most important heading element</h4>
+                  <h5>fifth most important heading element</h5>
+                  <h6>least important heading element</h6>
+    Paragraph Element: used for paragraphs on a web page.
+        Basic Syntax: <p>This is a paragraph.</p>
+    Image Element: used to embed images in a web page.
+        Basic Syntax: <img src="image.jpg" alt="Description of image" />
+        Attributes:
+            src: specifies the path to the image file.
+            alt: provides alternative text for the image, which is displayed if the image cannot be loaded.
+    Body Element: used to represent the content for the HTML document.
+        Basic Syntax: <body>
+                        <h1>CatPhotoApp</h1>
+                        <p>This is a paragraph element.</p>
+                      </body>
+    Head Element: used to contain metadata about the HTML document, such as the title, links to stylesheets, and scripts.
+        Basic Syntax: <head>
+                        <title>My Web Page</title>
+                        <link rel="stylesheet" href="styles.css">
+                      </head>
+    Section Element: used to divide up content into smaller sections.
+        Basic Syntax: <section>
+                        <h2>About Me</h2>
+                        <p>Hi, I am Jane Doe and I am a web developer.</p>
+                      </section>
+    Div Element: a generic HTML element that does not hold any semantic meaning. Used as a generic container to hold other HTML elements.
+        Basic Syntax: <div>
+                        <h2>My Hobbies</h2>
+                        <p>I enjoy hiking, reading, and coding.</p>
+                      </div>
+    Footer Element: used to define the footer of a web page, typically containing copyright information, links, and other related content.
+        Basic Syntax: <footer>
+                        <p>&copy; 2023 My Web Page</p>
+                      </footer>
+    Anchor Element: used to apply links to a web page.
+        Basic Syntax: <a href="https://www.example.com">This is a link</a>
+        Attributes:
+            href: specifies the URL of the page the link goes to.
+            target: specifies where to open the linked document (e.g., _blank for a new tab).
+    List Elements: used to create lists of items.
+        Basic Syntax: <li>this is a list item</li>
+    Unordered List Element: used to create a list of items that do not have a specific order.
+        Basic Syntax: <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                      </ul>
+    Ordered List Element: used to create a list of items that have a specific order.
+        Basic Syntax: <ol>
+                        <li>First item</li>
+                        <li>Second item</li>
+                        <li>Third item</li>
+                      </ol>
+    Emphasis Elements: used to emphasize text.
+        Basic Syntax: <em>This text is emphasized.</em>
+    Strong Elements: used to indicate that text is of strong importance.
+        Basic Syntax: <strong>This text is strong.</strong>
+    Figure Element: used to represent self-contained content, such as images, diagrams, or illustrations.
+    Figcaption Element: used to provide a caption or description for the content inside a figure element.
+        Basic Syntax: <figure>
+                        <img src="image.jpg" alt="Description of image" />
+                        <figcaption>This is a caption for the image.</figcaption>
+                      </figure>
+Identifiers and Grouping
+    IDs: Unique element identifiers for HTML elements. ID names should only be used once per HTML document.
+        Basic Syntax: <element id="uniqueID"></element>
+        Example: <div id="header">This is the header.</div>
+        ID names cannot have spaces. If your ID name contains multiple words then you can use dashes between the words
+        Example: <div id="main-content">This is the main content.</div>
+    Classes: used to group elements for styling and behavior.
+        Basic Syntax: <element class="className"></element>
+        Example: <div class="container">This is a container.</div>
+        Classes can be reused across multiple elements, and you can assign multiple classes to a single element. They can also have spaces.
+        Example: <div class="container main-content">This is a container with two classes.</div>
+Special Characters and Linking
+    HTML Entities:(or character reference,) is a set of characters used to represent a reserved character in HTML.
+        Basic Syntax: &entityName;
+        Examples Include: &amp; for &, &lt; for <, &gt; for >, &quot; for  " ".
+    Link Elements: used to link to external resources like stylesheets and site icons. 
+        Basic Syntax: <link rel="stylesheet" href="./styles.css">
+        Attributes:
+            rel: specifies the relationship between the current document and the linked resource.
+            href: specifies the URL of the linked resource.
+    Script Element: used to embed executable code.
+        Basic Syntax: <script>
+                        alert("Hello, World!");
+                      </script>
+        Attributes:
+            src: specifies the URL of the external script file.
+            async: allows the script to be executed asynchronously.
+            defer: allows the script to be executed after the document has been parsed.
+            alert: used to display an alert message in the browser.
+        Syntax Linking to a external JavaScript file: <script src="script.js"></script>
+Boilerplate and Encoding
+    HTML Boilerplate: The basic structure of an and essential elements every HTML document needs.
+        DOCTYPE - Tells the browser which version of HTML the document is written in.
+        Html Elements - represents the top level element or the root of an HTML document. Use a lang attribute to specify which language the document is written in.
+        Head Elements - contains important meta data which is behind-the-scenes information needed for browsers and search engines.
+        Meta Elements - represent your site's metadata. These element have details about things like character encoding, and how websites like Twitter should preview your page's link and more.
+        Title Element - used to set the text that appears in the browser tab or window.
+        UTF-8 Character Encoding (or UCS Transformation Format 8) - is a standardized character encoding widely used on the web. Character encoding is the method computers use to store characters as data. 
+            Use the charset attribute inside a meta element to set the character encoding.
+        Example Code:
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="utf-8" />
+                <title>freeCodeCamp</title>
+                <link rel="stylesheet" href="./styles.css" />
+            </head>
+            <body>
+                <!--Headings, paragraphs, images, etc. go inside here-->
+            </body>
+        </html>
+SEO and Social Sharing
+    SEO - Search Engine Optimization: a practice that optimizes web pages so they become more visible and rank higher on search engines.
+    Meta (description) Element: used to provide a short description for the web page and impacting SEO.
+        Basic Syntax: <meta name="description" content="This is a description of the web page." />
+        Attributes:
+            name: specifies the name of the metadata.
+            content: provides the value for the metadata.
+    Open Graph Tags: enables you to control how your website's content appears across various social media platforms, such as Facebook, LinkedIn, and many more.
+        By setting these open graph properties, you can entice users to want to click and engage with your content. You can set these properties through a collection of meta elements inside your HTML head section.
+    og:title Property: used to set the title that displays for social media posts.
+        Basic Syntax: <meta property="og:title" content="This is the title for social media posts." />
+    og:type Property: used to represent the type of content being shared on social media. 
+        Examples Include: articles, websites, videos, music
+        Basic Syntax: <meta property="og:type" content="website" />
+    og:image Property: used to set the image that displays for social media posts.
+        Basic Syntax: <meta property="og:image" content="https://www.example.com/image" />
+    og:url Property: used to set the URL that users will click on for the social media posts.
+        Basic Syntax: <meta property="og:url" content="https://www.example.com" />
+Media Elements and Optimization
+    Replaced Elements: an element whose content is determined by an external resource rather than by CSS itself.
+        Examples Include: <img>, <video>, <audio> <iframe>
+            Iframe Element: inline frame. It's an inline element used to embed other HTML content directly within the HTML page.
+                Basic Syntax: <iframe src="https://www.example.com" width="600" height="400"></iframe>
+                Attributes:
+                    src: specifies the URL of the page to embed.
+                    width: specifies the width of the iframe.
+                    height: specifies the height of the iframe.
+                    title: provides a title for the iframe content, which is important for accessibility.
+                    allowfullscreen: allows the iframe to be displayed in fullscreen mode
+            Embed Element: used to embed external content, such as videos or interactive media, into a web page.
+                Basic Syntax: <embed src="https://www.example.com/video.mp4" type="video/mp4" width="600" height="400">
+                Attributes:
+                    src: specifies the URL of the content to embed.
+                    type: specifies the MIME type of the embedded content.
+                    width: specifies the width of the embedded content.
+                    height: specifies the height of the embedded content.
+            input Element: used to create interactive controls for web forms.
+                Basic Syntax: <input type="text" placeholder="Enter text here">
+                Attributes:
+                    type: specifies the type of input control (e.g., text, password, checkbox, radio, etc.).
+                    placeholder: provides a hint to the user about what to enter in the input field.
+                    value: specifies the initial value of the input field.
+                    required: indicates that the input field must be filled out before submitting the form.
+                    disabled: makes the input field uneditable and unclickable.
+                    readonly: makes the input field uneditable but still allows users to select and copy the text.
+                    name: specifies the name of the input field, which is used when submitting form data.
+                    id: provides a unique identifier for the input field, which can be used for styling or scripting.
+            Optimizing Media: There are three tools to consider when using media, such as images, on your web pages: the size, the format, and the compression. A compression algorithm is used to reduce the size for files or data.
+                Image Formats: Common image formats include JPEG, PNG, GIF, WEBP, AVIF and SVG.
+                    JPEG: Best for photographs and images with many colors.
+                    PNG: Best for images with transparency or simple graphics.
+                    GIF: Best for simple animations.
+                    WEBP: Best for high-quality images with smaller file sizes.
+                    AVIF: Best for high-quality images with even smaller file sizes than WEBP.
+                    SVG: Best for vector graphics and logos.
+                Image Licenses: An image under the public domain has no copyright attached to it and is free to be used without any restrictions. Images licensed specifically under the Creative Commons 0 license are considered public domain. Some images might be released under a permissive license, like a Creative Commons license, or the BSD license that freeCodeCamp uses.
+                SVGs: Scalable Vector Graphics track data based on paths and equations to plot points, lines, and curves. What this really means is that a vector graphic, like an SVG, can be scaled to any size without impacting the quality.
+Multimedia Integration
+    Audio Element: used to embed audio content in a web page.
+        Basic Syntax: <audio src="audio.mp3" controls></audio>
+        Attributes:
+            src: specifies the URL of the audio file.
+            controls: adds playback controls to the audio player (play, pause, volume, etc.).
+            autoplay: starts playing the audio automatically when the page loads.
+            loop: makes the audio play in a loop.
+            muted: mutes the audio.
+            preload: specifies how the audio file should be loaded when the page loads (e.g., none, metadata, auto).
+            crossorigin: specifies how the audio file should be handled for cross-origin
+    Video Element: used to embed video content in a web page.
+                Basic Syntax: <video src="video.mp4" controls width="600" height="400"></video>
+                Attributes:
+                    src: specifies the URL of the video file.
+                    controls: adds playback controls to the video (play, pause, volume, etc.).
+                    width: specifies the width of the video player.
+                    height: specifies the height of the video player.
+                    autoplay: starts playing the video automatically when the page loads.
+                    loop: makes the video play in a loop.
+                    muted: mutes the audio of the video.
+                    poster: specifies an image to show before the video starts playing.
+ Target Attribute Types
+    Target Attribute: used to specify where to open the linked document.
+        Basic Syntax: <a href="https://www.example.com" target="_blank">This is a link</a>
+        Values:
+            _blank: opens the link in a new tab or window.
+            _self: opens the link in the same frame as it was clicked (default behavior).
+            _parent: opens the link in the parent frame.
+            _top: opens the link in the full body of the window.
+            _unfencedTop: opens the link in a new tab or window, but does not allow the new page to access the opener (the original page).   
+Absolute vs. Relative Paths
+    Path Definition: A path is a string that specifies the location of a file or directory in a file system. In web development, paths let developers link to resources like images, stylesheets, scripts, and other web pages.
+    Path Syntax: 3 key syntaxes;
+        1. / or \ - Path Seperator. Indicates a break in the text between folder or file names.
+        2. ./ - Current Directory. Indicates the current directory or folder.
+        3. ../ - Parent Directory. Indicates the parent directory or folder.
+    Absolute Path: a complete link to a resource. It starts from the root directory, includes every other directory, and finally the filename and extension.
+        Root Directory: The top-level directory in a file system, which contains all other directories and files.
+        Protocol: The method used to access the resource, such as HTTP, HTTPS, or file.
+        Domain Name: The unique name that identifies a website on the internet.
+       Example: https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg"
+    Relative Path: specifies the location of a file relative to the directory of the current file. It does not include the protocol or the domain name, making it shorter and more flexible for internal links within the same website. 
+        Example: ./img/fcc_secondary_small.svg
+    Relative paths are useful for linking to resources within the same website, as they allow you to move files around without breaking links.
+Link States
+    :Link - This is the default state. This state represents a link which the user has not visited, clicked, or interacted with yet. You can think of this state as providing the base styles for all links on your page. The other states build on top of it.
+    :Visited - This applies when a user has already visited the page being linked to. By default, this turns the link purple - but you can leverage CSS to provide a different visual indication to the user.
+    :Hover - applies when a user is hovering their cursor over a link. This state is helpful for providing extra attention to a link, to ensure a user actually intends to click it.
+    :focus - applies when a user has clicked on a link, or navigated to it using the keyboard. This state is useful for accessibility, as it indicates which link is currently selected.
+    :active - applies when a user is actively clicking on a link. This state is useful for providing feedback to the user that their click has been registered.
+        It is recommended to order the link states in the following way:
+        :link, :visited, :hover, :focus, :active
+
+SEMANTIC HTML - REVIEW GUIDE
+Importance of Semantic HTML
+    Structural hierarchy for heading elements: It is important to use the correct heading element to maintain the structural hierarchy of the content.
+        The <h1></h1> element is the higest level of heading.
+        The <h6></h6> element is the lowest level of heading.
+    Presentational HTML elements: Elements that define the apperance of content. NOTE - when using HTML 5 these elements are deprecated as you should do all styling with CSS.
+        Examples Include: <center></center>, <big></big>, or <font></font> Elements.
+    Semantic HTML elements: are elements that hold both meaning and structure. 
+        Examples Include: <header></header>, <nav></nav>, <figure></figure> Elements.
+Semantic HTML Elements
+    Header Element: used to define the header of a document or section.
+        Basic Syntax: <header>Content</header>
+    Main Element: used to contain the main content of the web page.
+        Basic Syntax: <main>Content</main>
+    Section Element: used to divide up content into smaller sections.
+        Basic Syntax: <section>Content</section>
+    Navigation Section Element: represents a section with navigation links.
+        Basic Syntax: <nav>Content</nav>
+    Figure Element: used to contain illustrations and diagrams.
+        Basic Syntax: <figure>Content</figure>
+    Emphasis Element: marks text that has stress emphasis.
+        Basic Syntax: <em>Content</em>
+    Idiomatic Text Element: sed for highlighting alternative voice or mood, idiomatic terms from another language, technical terms, and thoughts. The Lang attribute only specifies the language of the Content. Nothing about the Idiomatic Text Element indicates if the text is important or not. It simply shows that it is somehow different from the surrounding text.
+        Basic Syntax: <i lang="fr">je ne sais quoi</i>
+    Strong Important Element: marks text that has strong imporance
+        Basic Syntax: <strong>Content</strong>
+    Bring Attention to Element: used to bring attention to text that is not important for the meaning of the content. It's commonly used to highlight keywords in summaries or product names in reviews.
+        Basic Syntax: <b>Content</b>
+    Decription List Element: used to represent a list of term-description groupings.
+        Basic Syntax: <dl>Content</dl>
+        Description Term Element: used to represent the term being defined.
+            Basic Syntax: <dt>Content</dt>
+        Description Details Element: used to represent the description of the term.
+            Basic Syntax: <dd>Content</dd>
+        Example Code: <dl>
+                        <dt>HTML</dt>
+                        <dd>HyperText Markup Language</dd>
+                        <dt>CSS</dt>
+                        <dd>Cascading Style Sheets</dd>
+                      </dl>
+    Block Quotation Element: used to represent a section that is quoted from another source.
+        Attribute - Cite: The value of the cite attribute is the URL of the source.
+        Basic Syntax: <blockquote cite="URL of the source from which the quote was taken">Quote</blockquote>
+    Cite Element: used to attribute the source of the referenced work visually. Marks up the title of the reference
+        Basic Syntax: <cite>Content</cite>
+    Inline Quotation Element: used to represent a short inline Quotation
+        Attribute - Cite: The value of the cite attribute is the URL of the source.
+        Basic Syntax: <q cite="URL of the source from which the quote was taken">Content</cite>
+    Abbreviation Element: used to represent an abbreviation or acronym. To help users understand what the abbreviation or acronym is, you can show its full form, a human readable description, with the title attribute.
+        Basic Syntax:<abbr title="HyperText Markup Language">HTML</abbr>
+    Contact Address Element: used to represent the contact information.
+        <address>
+            <p> Cody Black <br>
+            #27 - 52324 Yale Road <br>
+            Rosedale, BC, V0X 1X1
+        </address>
+    (Date) Time Element: used to represent a date and/or time.
+        Attribute - datetime: is used to translate dates and times into a machine-readable format.
+            <time datetime="2025-06-18T20:31:00">June 18th, 2025 at 8:31 p.m.</time>
+    ISO 8601 Datetime Attribute: is used to represent dates and times in a machine-readable format (as seen in the basic syntax of the (Date) Time Element). The standard format is YYYY-MM-DDThh:mm:ss with the T being the separator between the date and time. 
+    Superscript Element: used to represent superscript text.
+        Common Uses: Exponents, Superior Lettering, and Ordinal Numbers
+        Basic Syntax: <sup>Content</sup>
+    Subscript Element: Used to represent subscript text. 
+        Common Uses: Chemical Formulas, Foot Notes, and Variable Subscripts. 
+        Basic Syntax: <sub>Content</sub>
+    Inline Code Element: used to represent a fragment of computer code
+        Basic Syntax: <code>Content</code>
+    Preformatted Text Element: represents preformatted text. (be wary of your indents when using this element as they will be mimicked on the page)
+        Basic Syntax: <pre>
+                        <code>
+                            body {
+                                color: red;
+                            }
+                        </code>
+                      </pre>
+    Unarticulated Annotation Element: Used to represent a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation.
+        Basic Syntax: <u>Content</u>
+    Ruby Annotation Element: Used for annotating text with pronunciation or meaning explanations. An example usage is for East Asian typography.
+        Basic Syntax: <ruby>Content</ruby>
+        Ruby Fallback Parenthisis Element: used as a fallback for browsers lacking support for displaying ruby annotations.
+            Basic Syntax: <rp>Content</rp>
+        Ruby Text Element: Used to indicate text for the ruby annotation. Usually used for pronunciation, or translation details in East Asian typography.
+            Basic Syntax: <rt>Content</rt>
+        Example Code: <ruby>
+                        明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp>
+                      </ruby> 
+    Strikethrough Element: Used to represent content that is no longer accurate or relevant.
+        Basic Syntax: <s>Content</s>
+
+HTML TABLES and FORMS - REVIEW GUIDE
+HTML Form Elements and Attributes
+    Form Element: used to create an HTML form for user input
+        Attributes:
+        Action Attribute - used to specify the URL where the form data should be sent
+        Method Attribute - used to specify the HTTP method to use when sending the form data. The most common methods are "GET" and "POST"
+            Example Code -
+                <form method="value-goes-here" action="URL-goes-here">
+                    <!-- inputs go here -->
+                </form>
+    Input Element: used to create an input field for user input.
+        Attributes:
+        Type Attribute - used to specify the type of input field.
+            Examples Include; "text", "email", "number", "radio", "checkbox" etc.
+        Placeholder Attribute - used to show a hint to the user to show them what to enter in the input field .
+        Value Attribute - used to specify the value of the input. 
+            If the input has a "button" type, the value= attribute can be used to set the button text. 
+        Name Attribute - used to assign a name to an input field, which serves as the key when form data is submitted. 
+            When you give radio buttons the same name attribute, only ONE of the buttons can be selected at one time. 
+        Size Attribute - used to define the number of characters that should be visible as the user types into the input.
+        Min Attribute - can be used with input types, like number, to specify the minimum value allowed in the input field.
+        Max Attribute - can be used with input types, like number, to specify the maximum value allowed in the input field. 
+        Minlength - used to specify the minimum number of characters required in an input field.
+        Maxlength - used to specify the maximum number of characters allowed in an input field.
+        required - used to specify that an input field must be filled out before submitting the form.
+        disabled - used to specify that an input field should be disabled.
+        readonly - used to specify that an input field is read-only.
+            Example Codes:
+            <!-- Text Input -->
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="e.g. Quincy Larson"
+                    size="20"
+                    minlength="5"
+                    maxlength="30"
+                    required
+                >
+            <!-- Number Input -->
+                <input
+                    type="number"
+                    id="quantity"
+                    min="2"
+                    max="10"
+                    disabled
+                >
+            <!-- Button -->
+                <input type="button" value="Show Alert">
+    Label Element: used to create a label for an input field. 
+        Attribute:
+            For Attribute: Used to specify which input field the label is for. 
+            Implicit Form Association: Inputs can be associated with labels by wrapping the INPUT field inside the LABEL element.
+                Example Code: 
+                    <form action=" ">
+                        <label>
+                            Full Name:
+                            <input type="text">
+                        </label>
+                    </form>
+            Explicit Form Association: inputs can be associated with labels by using the for attribute on the label element.
+                Example Code:
+                    <form action=" ">
+                        <label for="email">Email Address: </label>
+                        <input type="email" id="email">
+                    </form>
+    Button Element: used to create a clickable button. 
+        Attribute:
+        Type Attribute: can be used to control the behavior of the button when it is activated.
+            Example Codes:
+                <button type="button">Show Form</button>
+                <button type="submit">Submit Form</button>
+                <button type="reset">Reset Form</button>
+    Fieldset Element: used to group related inputs together.
+    Legend Element: used to add a caption to describe the group of inputs.
+        Example Code: 
+        <!-- Radio Group -->
+            <fieldset>
+                <legend>Was this your first time at our hotel?</legend>
+
+                <label for="yes-option">Yes</label>
+                <input id="yes-option" type="radio" name="hotel-stay" value="yes">
+
+                <label for="no-option">No</label>
+                <input id="no-option" type="radio" name="hotel-stay" value="no">
+            </fieldset>
+        <!-- Checkbox Group -->
+            <fieldset>
+                <legend>
+                    Why did you choose to stay at our hotel? (Check all that apply)
+                </legend>
+
+                <label for="location">Location</label>
+                <input type="checkbox" id="location" name="location" value="location">
+
+                <label for="price">Price</label>
+                <input type="checkbox" id="price" name="price" value="price">
+            </fieldset>
+    Focused State: this is the state of an input field when it is selected by the user. 
+Working with HTML Table Elements and Attributes
+    Table Element: used to create an HTML table.
+    Table Head Element: used to group the header content in an HTML table.
+        Basic Syntax: <thead></thead>
+    Table Row Element: used to create a row in an HTML table.
+        Basic Syntax: <tr></tr>
+    Table Header Element: used to create a header cell in an HTML table.
+        Basic Syntax: <th></th>
+    Table Body Element: used to group the body content in an HTML table.
+        Basic Syntax: <tbody></tbody>
+    Table Data Cell Element: used to create a data cell in an HTML table.
+        Basic Syntax: <td></td>
+    Table Foot Element: used to group the footer content in an HTML table. 
+        Basic Syntax: <tfoot></tfoot>
+    Caption Element: used to add a title to an HTML table
+        Syntax Note - this element should be placed above the Table Head Element. 
+    Colspan Attribute: Used to specify the number of columns a table cell should span.
+        Example Code: 
+            <table>
+                <caption>Table Title Goes Here</caption>
+
+                <thead>
+                    <tr>
+                        <th>Cell #1 Header</th>
+                        <th>Cell #2 Header</th>
+                        <th>Cell #3 Header</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr></tr> is a row - you can repeat this format to create as many rows as you need in the table. -->
+                    <tr>
+                        <td>Data Cell #1 Row #1</td>
+                        <td>Data Cell #2 Row #2</td>
+                        <td>Data Cell #3 Row #3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Average Grade</td>
+                        <td>78</td>
+                    </tr>
+                </tfoot>
+            </table>
+Working with HTML Tools
+    HTML Validator: a tool that checks the syntax of HTML code to ensure it is valid.
+    DOM Inspector: a tool that allows you to inspect and modify the HTML structure of a web page.
+    Devtools: a set of web developer tools built directly into the browser that helps you debug, profile, and analyze web pages.
+
+HTML ACCESSIBILITY - REVIEW GUIDE
+Assistive Technology for Accissibility
+    Screen Readers: Software programs that read the content of a computer screen out loud. They are used by people who are blind or visually impaired to access the web.
+    Large Text or Braille Keyboards: Used by people with visual impairments to access the web.
+    Screen Magnifiers: Software programs that enlarge the content of a computer screen. They are used by people with low vision to access the web.
+    Alternative Pointing Devices: Used by people with mobility impairments to access the web. 
+        Examples Include: Joysticks, Trackballs, and Touchpads.
+    Voice Recognition: Used by people with mobility impairments to access the web. It allows users to control a computer using their voice.
+Accessibility Auditing Tools
+    The following are some common tools and platforms used to audit the accessibility of a website: Google Lighthouse, Wave, IBM Equal Accessibility Checker, and axe DevTools
+Accessibility Best Practices
+    Proper Heading Level Structure: You should use proper heading levels to create a logical structure for your content. This helps people using assistive technologies understand the content of your website.
+    Accessibility and Tables: The following helps people with Assistive Technology to understand the structure of the table - 
+        Use the <th> element to define header cells;
+        Use the <td> element to define data cells;
+        <caption> element allows you to caption/title the table making the purpose and content within the table easy to understand - belongs directly after opening tag of table element.
+    Importance for Inputs to have an Associated Label: associated form inputs with a label element ensures people know the purpose of the input.
+    Importance of Good Alt Text: providing clear text alternatives for images ensures EVERYONE can acess and understand the content on your web page.
+    Importance of Good Link Text: descriptive link text helps people understand the purpose of the link.
+    Best Practices for Making Audio and Video Content Accessible: this feels self explanatory - but some people cant hear, so using cations and transcripts, other people cant see so provide audio descriptions
+    Tabindex Attributex: used to make elements focusable and define the relative order in which they should be navigated by using the keyboard. 
+        Never use the tabindex attribute with a value greater than 0 - instead use a value of 0 or -1. 
+        Basic Syntax: <p tabindex="-1">Sorry, there was an error with your submission.</p>
+    Accesskey Attribute: is used to define a keyboard shortcut for an element. This can help users with mobility impairments navigate the website more easily. 
+        Example Code:   <button accesskey="s">Save</button>
+                        <button accesskey="c">Cancel</button>
+                        <a href="index.html" accesskey="h">Home</a>
+WAI-ARIA, Roles and Attributes
+    WAI-ARIA: Stands for Web Accessibility Initiative - Accessible Rich Internet Applications. It is a set of attributes that can be added to HTML elements to improve accessibility. It provides additional semantic information to assistive technologies about the purpose and structure of the content.
+    ARIA Roles: A set of predefined roles that can be added to HTML elements to define their purpose. This helps people using assistive technologies understand the content of the website. 
+        Examples Include: "tab", "menu", "alert"
+        There are 6 main categories of ARIA roles:
+            Document Structure Roles: These roles define the overall structure of the web page. With these roles, assistive technologies can understand the relationships between different sections and help users navigate the content.
+            Widget Roles: These roles define the purpose and functionality of interactive elements, like scrollbars.
+            Landmark Roles: These roles classify and label the primary sections of a web page. Screen readers use them to provide convenient navigation to important sections of a page.
+            Live Region Roles: These roles define elements with content that will change dynamically. This way, screen readers and other assistive technologies can announce changes to users with visual disabilities.
+            Window Roles: These roles define sub-windows, like pop up modal dialogues.
+                Examples Include: "alertdialog", "dialog"
+            Abstract Roles: These roles help organize the document. They're only meant to be used internally by the browser, not by developers, so you should know that they exist but you shouldn't use them on your websites or web applications.
+    Aria-label/aria-lebelledby attributes: These attributes are used to give an element a programmatic (or accessible) name, which helps people using assistive technology (such as screen readers) understand the purpose of the element. They are often used when the visual label for an element is an image or symbol rather than text.
+        aria-label - allows you to define the name directly in the attribute
+        aria-labelledby - allows you to reference existing text on the page. 
+        Example Codes:   <button aria-label="Search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        
+                        <input type="text" aria-labelledby="search-btn">
+                        <button type="button" id="search-btn">Search</button>
+    aria-hidden attribute: used to hide an element from assistive technologies such as screen readers. For example, this can be used to hide decorative images that do not provide any meaningful content.
+        Example Code:   <button>
+                            <i class="fa-solid fa-gear" aria-hidden="true"></i>
+                            <span class="label">Settings</span>
+                        </button>
+    aria-expanded attribute: Used to convey the state of a toggle (or disclosure) feature to screen reader users.
+        Example Code:   <button aria-expanded="true">Menu</button>
+    aria-live attribute: Used to indicate that an element's content is important enough to require that any changes to the content should be announced immediately to screen reader users. This can include status messages like updating the number of results returned from a search, or an error message displayed after an unsuccessful form submission.
+        Example Codes:  <div aria-live="assertive">
+                            <p>Your session will expire in 30 seconds.</p>
+                        </div>
+
+                        <div aria-live="polite">
+                            <p>File successfully uploaded</p>
+                        </div>
+    Common ARIA States: These attributes can be used to indicate the state of an element and help people using assistive technologies understand the content of the website.
+        Examples Include: aria-haspopup, aria-checked, aria-diabled, and aria-selected.
+        aria-haspopup attribute: This state is used to indicate that an interactive element will trigger a pop-up element when activated. You can only use this attribute when the pop-up has one of the following roles: menue, listbox, tree, grid, or dialog. The value of this attribute must be one of the above mentioned roles, or true (which is the same as the menu role).
+            Example Code:   <button id="menubutton" aria-haspopup="menu" aria-controls="filemenu" aria-expanded="false">File</button>
+                            <ul id="filemenu" role="menu" aria-labelledby="menubutton" hidden>
+                                <li role="menuitem" tabindex="-1">Open</li>
+                                <li role="menuitem" tabindex="-1">New</li>
+                                <li role="menuitem" tabindex="-1">Save</li>
+                                <li role="menuitem" tabindex="-1">Delete</li>
+                            </ul>
+        aria-checked attribute: This attribute is used to indicate whether an element is in the checked state. It is most commonly used when creating custom checkboxes, radio buttons, switches, and listboxes.
+            Example Code: <div role="checkbox" aria-checked="true" tabindex="0">Checkbox</div>
+        aria-disabled attribute: This state is used to indicate that an element is disabled only to people using assistive technologies, such as screen readers.
+            Example Code: <div role="button" tabindex="-1" aria-disabled="true">Edit</div>
+        aria-selected attribute: This state is used to indicate that an element is selected. You can use this state on custom controls like a tabbed interface, a listbox, or a grid.
+            Example Code:   <div role="tablist">
+                                <button role="tab" aria-selected="true">Tab 1</button>
+                                <button role="tab" aria-selected="false">Tab 2</button>
+                                <button role="tab" aria-selected="false">Tab 3</button>
+                            </div>
+        aria-controls attribute: Used to associate an element with another element that it controls. This helps people using assistive technologies understand the relationship between the elements.
+            Example Code:   <div role="tablist">
+                                <button role="tab" id="tab1" aria-controls="section1" aria-selected="true">
+                                    Tab 1
+                                </button>
+                                <button role="tab" id="tab2" aria-controls="section2" aria-selected="false">
+                                    Tab 2
+                                </button>
+                                <button role="tab" id="tab3" aria-controls="section3" aria-selected="false">
+                                    Tab 3
+                                </button>
+                            </div>
+        aria-describedby attribute: Used to provide additional information about an element by associating it with another element that contains the information. This gives people using screen readers immediate access to the additional information when they navigate to the element. Common usage would include associating formatting instructions to a text input or an error message to an input after an invalid form submission.
+            Example Code:   <form>
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" aria-describedby="password-help" />
+                                <p id="password-help">Your password must be at least 8 characters long.</p>
+                            </form>

@@ -1,0 +1,50 @@
+COMPUTER BASICS - REVIEW GUIDE
+Understanding Computer, Internet and Developer Tooling Basics
+    Motherboard: holds all of the memory, connectors, and hard drives that are needed to run the computer. It serves as the main circuit board for the computer.
+    Central Processing Unit (a.k.a CPU): a processor that is responsible for executing instructions and performing calculations.
+    Random Access Memory (a.k.a RAM): a temporary storage location for the computer's CPU.
+    Hard Disk Drive (a.k.a HDD): a permanent storage location that is used to store data even when the computer is turned off.
+    Solid State Drive (a.k.a SSD): non-volatile flash memory and can be used in place of a hard drive.
+    Power Supply Unit (a.k.a PSU): responsible for converting the electricity from the wall outlet into a form that the computer can use.
+    Graphics Processing Unit (a.k.a GPU): responsible for rendering visuals on the computer screen.
+    Different Types of Internet Service Providers: An Internet Service Provider (ISP) is a company that provides access to the internet. There are different types of ISPs, including dial-up, DSL, cable, fiber-optic, and satellite.
+    Safe Ways to Sign Into Your Computer: Examples of safe ways to sign into your computer include using a strong password, enabling two-factor authentication, and using a password manager.
+    Integrated Development Environment (a.k.a IDE): a tool that helps developers write, test and debug code in an efficient manner.
+    Code Editor: a tool that developers use to write and debug code.
+    Git: a popular version control system that allows developers to track changes in their code and collaborate with others.
+    Cloud-based Hosting Services for Repositories: A repository is a storage location for project files and version history. Popular cloud-based hosting services for repositories include GitHub, GitLab, and Bitbucket.
+    Package Managers: tools that help developers simplify the process of adding, updating, and removing libraries and project dependencies. Examples include npm, pip, and Maven.
+    Testing Libraries and Frameworks: Testing is done in software to ensure that the code works as expected. Examples of testing libraries and frameworks include Jest, PHPUnit, and JUnit.
+Working with Files, File Systems and Media Formats
+    Best Practices for Naming Files: you will want to name your files in a way that is easy to understand and maintain. 
+        Example: about-us.html is a better file name to page1.html or file12-1.html
+    Root Directory: top-level directory in a file system. Directory is another name for a folder.
+    Markdown: a markup language commonly used for documentation and README files. 
+        README File: contains information about a project, such as how to install and use it, add to it, licensing etc...
+    index.html: represents the default page that is displayed when a user visits a website. i.e., the main page.
+    Create, Move, and Delete Files and Folders using Explorer/Finder: Explorer is the file manager in Windows, and Finder is the file manager in macOS. You can use these tools to create, move, and delete files and folders.
+    Searching for Files and Folders: You can use the search functionality in Explorer or Finder to find files and folders on your computer.
+    HTML, CSS and JS File Types:
+        .html - the file extension for HTML files
+        .css - the file extension for CSS files
+        .js - the file extension for JavaScript files. 
+    Common Image and Graphic Formats: 
+        JPEG - good for compressablity, however, you will loose image quality
+        PNG - good for transparent backgrounds and sharp lines
+        GIF - supports animations, however, has a limited colour pallet
+        SVG - for Vector Graphics, can be compressed and scaled without loosing the original quality of the image
+    Common Audio and Video Formats:
+        MP3 - commonly used for audio file formats for user files
+        MP4 - commonly used for video file formats for user files
+        MOV - video file format developed by Apple
+    Common Font Formats:
+    TTF - commonly used for TrueType fonts.
+    WOFF - commonly used for web fonts, and its sucessor;
+    WOFF2 - which provides better compression.
+    ZIP: a file format that is used to compress files and folders.
+Browsing the Web Effectively
+    What is a Web Browser?: a software application that allows users to access and view websites on the internet.
+    What is a Search Engine: a tool that allows users to search for information on the internet. 
+        Examples Include: Google, Bing, and Yahoo.
+    Common Web Browsers: A few examples of common web browsers include Google Chrome, Mozilla Firefox, and Microsoft Edge.
+    Common Search Strategies: You can use "site:" followed by the URL of a website to search for content on that website. You can use "filetype:" followed by a file extension to search for files of that type. You can prefix a search term with a minus sign to exclude results containing that term. You can prefix a search term with a plus sign to include results containing that term.
