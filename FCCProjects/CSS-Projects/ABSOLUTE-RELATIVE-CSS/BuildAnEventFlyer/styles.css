@@ -1,0 +1,17 @@
+/* I would stylize this more - but I don't have time to spend, and this was enough to pass the FCC*/
+
+body {
+    padding: 50px 0px;
+    margin: 0 auto;
+    width: 100vw;
+    min-height: calc(100vh - 100px);
+    text-align: center;
+}
+
+hr {
+    width: 30%;
+}
+
+section {
+    width: 50%;
+}
