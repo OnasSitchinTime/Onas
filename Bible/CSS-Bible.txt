@@ -298,3 +298,79 @@ CSS DESIGN FUNDAMENTALS - REVIEW GUIDE
         Adobe XD: This is a vector-based design and prototyping tool for UI/UX design, known for its seamless integration with other Adobe apps like Photoshop, Illustrator, and After Effects.
 
         Canva: This tool allows you to create a wide range of visual content, including posters, cover photos, presentations, short videos, and more. Its user-friendly and simple design makes it ideal for beginners.
+
+CSS RELATIVE AND ABSOLUTE UNITS - REVIEW GUIDE
+    Absolute Units
+        Pixels: This absolute unit is a fixed-size unit of measurement in CSS. It is the most common absolute unit and provides precise control over dimensions. 1px is always equal to 1/96th of an inch.
+            Basic Syntax: {
+                ~~~: ##px;
+            }
+        
+        Inch: This absolute unit is equal to 96px.
+            Basic Syntax: {
+                ~~~: ##in;
+            }
+        
+        Centimeters: This absolute unit is equal to 25.2/64 of an inch.
+            Basic Syntax: {
+                ~~~: ##cm;
+            }
+        
+        Millimeters: This absolute unit is equal to 1/10th of a centimeter.
+            Basic Syntax: {
+                ~~~: ##mm;
+            }
+    
+        Quarter-Millimeters: This absolute unit is equal to 1/40th of a centimeter.
+            Basic Syntax: {
+                ~~~: ##q;
+            }
+    
+        Picas: This absolute unit is equal to 1/6th of an inch.
+            Basic Syntax: {
+                ~~~: ##pc;
+            }
+    
+        Points: This absolute unit is equal to 1/72th of an inch.
+            Basic Syntax: {
+                ~~~: ##pt;
+            }
+
+    Relative Units
+        Percentages: These relative units allow you to define sizes, dimensions, and other properties as a proportion of their parent element. 
+            Think. - if you set {
+                width: 50%;
+                } on an element, it will occupy half the width of its parent container.
+
+        em Unit: These units are relative to the font size of the element. If you are using ems for the font-size property, the size of the text will be relative to the font size of the parent element.
+        
+        rem Unit: These units are relative to the font size of the root element, which is the html element.
+        
+        vh Unit: vh stands for "viewport height" and 1vh is equal to 1% of the viewport's height.
+        
+        vw Unit: vw stands for "viewport width" and 1vw is equal to 1% of the viewport's width.
+
+
+    Calc Function
+        Calc Function: Allows you to perform calculations directly within your stylesheets to determine property values dynamically. This means that you can create flexible and responsive user interfaces by calculating dimensions based on the viewport size or other elements.
+            Basic Syntax - Addition:
+            *Note, both values must have a unit {
+                ~~: calc(##in + ##cm):
+            }
+            Basic Syntax - Subtraction:
+            *Note, both values must have a unit - they do not need to correspond {
+                ~~: calc(##px + ##%):
+            }
+            Basic Syntax - Multiplication:
+            *Note, only one value should have a unit - but it could be eaither varible {
+                ~~: calc(##vh * ##):
+            }
+            OR {
+                ~~: calc(## * ##rem):
+            }
+            Basic Syntax - Division:
+            *Note, Only the LEFT value should have a unit {
+                ~~: calc(##px / ##):
+            }
+            
+
