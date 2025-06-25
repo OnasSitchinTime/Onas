@@ -1,0 +1,32 @@
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.color-box {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.color1 {
+    background-color: #11D7;
+}
+
+.color2 {
+    background-color: rgb(3, 149, 200);
+}
+
+.color3 {
+    background-color: lightseagreen;
+}
+
+.color4 {
+    background-color: hsl(40, 60%, 50%);
+}
+
+.color5 {
+    background-color: tomato;
+}
