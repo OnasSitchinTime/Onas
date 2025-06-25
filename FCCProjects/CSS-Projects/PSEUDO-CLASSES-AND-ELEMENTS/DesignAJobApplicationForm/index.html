@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <label for="name">Full Name: </label>
+            <input id="name" type="text">
+
+            <label for="email">Email Adress: </label>
+            <input id="email" type="email">
+
+            <label for="position">What Position Are You Applying For?</label>
+            <select id="position">
+                <option value="conveyancer">Conveyancer</option>
+                <option value="notary">Notary</option>
+                <option value="receptionist">Receptionist</option>
+                <option value="client">Client</option>
+                <option value="realtor">Realtor</option>
+                <option value="bank-runner">Bank Runner</option>
+                <option value="file-opener">File Opener</option>
+            </select>
+
+            <fieldset class="radio-group">
+                <legend>How Often Are You Available?</legend>
+                <label for="FT">Full-Time</label>
+                <input id="FT" name="availability" type="radio">
+
+                <label for="PT-Morn">Part-Time; Mornings</label>
+                <input id="PT-Morn" name="availability" type="radio">
+
+                <label for="PT-Eve">Part-Time; Evenings</label>
+                <input id="PT-Eve" name="availability" type="radio">
+
+                <label for="Casual">Casual/Weekends</label>
+                <input id="Casual" name="availability" type="radio">
+            </fieldset>
+            <textarea id="message"></textarea>
+            <button type="submit">Send it</button>
+        </form>
+    </div>
+</body>
+
+</html>
