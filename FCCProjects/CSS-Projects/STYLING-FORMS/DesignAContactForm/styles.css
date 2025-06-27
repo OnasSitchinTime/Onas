@@ -1,0 +1,46 @@
+.form-container {
+    background: linear-gradient(hsl(334, 100%, 89%, 50%), hsl(0, 100%, 85%, 50%), hsl(20, 100%, 85%, 50%));
+    border-radius: 10px;
+    padding: 10px;
+    width: 50vw;
+    margin: 3vh auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+label {
+    display: block;
+    margin: 5px;
+    color: #3f0600;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+input,
+textarea {
+    display: block;
+    width: 45vw;
+    padding: 2vh;
+    margin-bottom: .1vh;
+}
+
+#message {
+    font: .9em;
+    min-height: 80px;
+}
+
+input {
+    font-size: 1.1rem
+}
+
+button {
+    background-color: white;
+    font-size: 0.8rem;
+}
+
+button:hover {
+    background-color: yellow;
+}
