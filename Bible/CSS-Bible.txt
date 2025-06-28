@@ -676,11 +676,11 @@ CSS FLEXBOX - REVIEW GUIDE
 
         justify-content: center; This centers the flex items along the main axis.
 
-        justify-content: space-between; This will distribute the elements evenly along the main axis.
+        justify-content: space-between; This will place the first item at the start, the last item at the end, and evenly spaces the other items between them along the main axis?
 
-        justify-content: space-around; This will distribute flex items evenly within the main axis, adding a space before the first item and after the last item.
+        justify-content: space-around; This will space items equally along the main axis while leaving half that amount of space at the container’s edges
 
-        justify-content: space-evenly; This will distribute the items evenly along the main axis.
+        justify-content: space-evenly; This will space items so that the gaps between every pair of adjacent items and the container’s edges are all equal
 
     The align-items Property 
         Definition: This property is used to distribute items along the cross axis. Remember that the cross axis is perpendicular to the main axis.
