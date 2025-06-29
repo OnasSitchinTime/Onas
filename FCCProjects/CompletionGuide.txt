@@ -126,12 +126,12 @@ Full Stack Developer Certification
             4. Review - CSS Flexbox Review; June 28th, 2025
             5. Quiz - CSS Flexbox Quiz, 19/20; June 28th, 2025
 
-        10. Typography - 76/78 Steps Complete; June 28
+        10. Typography - 78/78 Steps Complete; June 28th, 2025 - June 29th, 2025
             1. Lecture - Working with CSS Fonts; June 28th, 2025
             2. Workshop - Build a Nutritional Label; June 28th, 2025
             3. Lab - Build a Newspaper Article; June 28th, 2025
-            4. Review - CSS Typography Review; 
-            5. Quiz - CSS Typography Quiz
+            4. Review - CSS Typography Review; June 29th, 2025
+            5. Quiz - CSS Typography Quiz, 20/20;  June 29th, 2025
 
         11. Accessibility - 0/72 Steps Complete
             1. Lecture - Best Practices for Accessibility and CSS
