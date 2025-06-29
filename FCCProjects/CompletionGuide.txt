@@ -1,0 +1,315 @@
+Full Stack Developer Certification 
+
+    HTML - 212/212 Steps Complete
+        Begun June 16th, 2025 at 9:00 p.m.
+        Completed June 20th, 2025 at 10:00p.m.
+        *New Lab Noticed on HTML/Basic-HTML; Completed June 23rd, 9:19p.m.
+
+        1. Basic HTML - 84/84 Steps Complete; June 16th, 2025 to June 17th, 2025 *85/85 Steps Complete; June 23rd, 2025*
+            1. Workshop - Build a Curriculum Outline;June 16th, 2025
+            2. Lecture - Welcome Message from Quincy Larson; June 16th, 2025
+            3. Lab - Debug Camperbot’s Profile Page; June 16th, 2025
+            4. Lecture - Understanding HTML Attributes; June 16th, 2025 *Originally encompassed w/ 1.1.6.*
+            5. *Lab - Debugging a Pet Adoption Page; June 23rd, 2025*
+            6. Lecture - Understanding the HTML Boilerplate; June 16th, 2025 *Originally encompassed w/ 1.1.4.*
+            7. Workshop - Build a Cat Photo App; June 16th, 2025
+            8. Lab - Build a Recipe Page; June 16th, 2025 - June 17th, 2025
+            9. Lecture - HTML Fundamentals; June 17th, 2025
+            10. Lab - Build a Travel Agency Page; June 17th, 2025
+            11. Lecture - Working with Media; June 17th, 2025
+            12. Lab - Build a Video Compilation Page; June 17th, 2025
+            13. Lecture - Working with Links; June 17th, 2025
+            14. Review - Basic HTML Review; June 17th, 2025
+            15. Quiz - Basic HTMl Quiz, 19/20; June 17th, 2025
+
+        2. Semantic HTML - 39/39 Steps Complete; June 17th, 2025 to June 18th, 2025
+            1. Lecture - Importance of Semantic HTMl; June 17th, 2025 - June 18th, 2025
+            2. Workshop - Build a Cat Blog Page; June 18th, 2025
+            3. Lab - Build an Event Hub; June 18th, 2025
+            4. Review - Semantic HTML Review; June 18th, 2025
+            5. Quiz - Semantic HTML Quiz, 20/20; June 18th, 2025
+
+        3. Forms and Tables - 59/59 Steps Complete; June 18th, 2025 - June 19th, 2025
+            1. Lecture - Working with Forms; June 18th, 2025 
+            2. Workshop - Build a Hotel Feedback Form; June 18th, 2025 to June 19th, 2025
+            3. Lab - Build a Survey Form; June 19th, 2025
+            4. Lecture - Working with Tables; June 19th, 2025
+            5. Workshop - Build a Final Exams Table; June 19th, 2025
+            6. Lab - Build a Book Catalog Table; June 19th, 2025
+            7. Lecture - Working with HTML Tools; June 19th, 2025
+            8. Review - HTML Tables and Forms Review; June 19th
+            9. Quiz - HTML Tables and Forms Quiz, 20/20; June 19th, 2025
+
+        4. Accessibility - 28/28 Steps Complete; June 19th, 2025 - June 20th, 2025
+            1. Lecture - Important of Accessibility and Good HTML Structure; June 19th, 2025
+            2. Lecture - Working with Accessible Tables and Forms; June 19th, 2025
+            3. Lecture - Introduction to ARIA;  June 19th, 2025 - June 20th, 2025
+            4. Lecture - Working with Accessible Media Elements; June 20th, 2025
+            5. Lab - Build a Checkout Page; June 20th, 2025 
+            6. Lab - Design a Movie Review Page; June 20th, 2025
+            7. Lab - Build a Multimedia Player; June 20th, 2025
+            8. Review - HTML Accessibility Review; June 20th, 2025
+            9. Quiz - HTML Accessibility Quiz, 18/20; June 20th, 2025
+
+        5. HTML Review 1/1 Step Complete; on June 20th, 2025
+        1. HTML Review; June 20th
+
+    CSS - 531/1155 Steps Complete, as of June 28th, 2025 at 7:20 p.m. (SO CLOSE TO 50% DONE!)
+        Begun June 20th, 2025 at 11p.m.
+
+        1. Computer Basics 16/16 Steps Complete; June 20th - June 21st
+            1. Lecture - Understanding Computer, Internet, and Tooling Basics; June 20, 2025
+            2. Lecture - Working with File Systems; June 20, 2025
+            3. Lecture - Browsing the Web Effectively; June 20, 2025
+            4. Review - Computer Basics Review; June 21st, 2025
+            5. Quiz - Computer Basics Quiz - 18/20 June 21st, 2025
+
+        2. Basic CSS - 126/126 Steps Complete; June 21st, 2025 - June 22nd, 2025
+            1. Lecture - What is CSS; June 21st, 2025
+            2. Workshop - Design a Cafe Menu; June 21st, 2025
+            3. Lab - Design a Business Card; June 21, 2025
+            4. Lecture - CSS Specificity, the Cascade Algorithm, and Inheritance; June 21st, 2025
+            5. Review - Basic CSS Review; June 21st, 2025.
+            6. Quiz - Basic CSS Quiz, 18/20; June 21st, 2025
+            7. Lecture - Styling Lists and Links; June 21st, 2025
+            8. Lab - Build a Stylized To-Do List; June 21st, 2025
+            9. Lecture - Working with Backgrounds and Borders: June 22nd, 2025
+            10. Lab - Design a Blog Post Card; June 22nd, 2025
+            11. Review - Lists, Links, CSS Background and Boarders Review; June 22nd, 2025
+            12. Quiz - CSS Background and Borders Quiz, 19/20; June 22nd, 2025
+
+        3. Design - 23/23 Steps Complete; June 22nd, 2025
+            1. Lecture - User Interface Design Fundamentals; June 22nd, 2025
+            2. Lecture - User-Centred Design; June 22nd, 2025
+            3. Lecture - Common Design Tools; June 22nd, 2025
+            4. Review - Design Fundamentals Review; June 22nd, 2025
+            5. Quiz - Design Fundamentals - Quiz 20/20; June 22nd, 2025
+
+        4. Absolute and Relative Units - 8/8 Steps Complete; June 22nd, 2025 - June 23rd, 2025
+            1. Lecture - Working with Relative and Absolute Units; June 22nd, 2025
+            2. Lab - Build an Event Flyer Page; June 22nd, 2025
+            3. Review - CSS Relative and Absolute Units Review; June 22nd, 2025 - June 23rd, 2025
+            4. Quiz - CSS Relative and Absolute Units Quiz - 20/20; June 23rd, 2025
+
+        5. Pseudo Classes and Elements 37/37 Steps Complete; June 23rd, 2025 - June 24th, 2025
+            1. Lecture - Working with Pseudo-Classes and Pseudo-Elements in CSS; June 23rd, 2025
+            2. Workshop - Design a Greeting Card; June 23rd, 2025
+            3. Lab - Build a Job Application Form; June 23rd, 2025
+            4. Review - CSS Pseudo-classes Review; June 24th, 2025
+            5. Quiz - CSS Pseudo-classes Quiz - 19/20; June 24th, 2025
+
+        6. Colors - 98/98 Steps Complete; June 24th, 2025 - June 
+            1. Lecture - Working with Colours in CSS; June 24th, 2025
+            2. Workshop - Build A Set of Coloured Markers; June 24th, 2025
+            3. Lab - Design a Set of Coloured Boxes; June 24th, 2025
+            4. Review - CSS Colours Review; June 25th, 2025
+            5. Quiz - CSS Colours Quiz, 19/20; June 25th, 2025
+
+        7. Styling Forms - 66/66 Steps Complete; June 25th, 2025 - June 26th, 2025
+            1. Lecture - Best Practices for Styling Forms; June 25th, 2025
+            2. Workshop - Design a Registration Form; June 26th, 2025
+            3. Lab - Design a Contact Form; June 26th, 2025
+            4. Review - Styling Forms Review; June 26th, 2025
+            5. Quiz - Styling Forms Review, 19/20; June 26th, 2025
+
+        8. The Box Model - 54/54 Steps Complete; June 26th 2025 - June 27th, 2025
+            1. Lecture - Working with CSS Transforms, Overflow, and Filters; June 26th, 2025
+            2. Workshop - Design a Rothko Painting; June 27th, 2025
+            3. Lab - Build a Confidential Email Page; June 27th, 2025
+            4. Review - CSS Layouts and Effects Review; June 27th, 2025
+            5. Quiz - CSS Layout and Effects Quiz, 19/20; June 27th, 2025
+
+        9. Flexbox - 27/27 Steps Complete; June 27th, 2025 - June 28th, 2025
+            1. Lecture - Working with CSS Flexbox; June 27th, 2025
+            2. Workshop - Build a Flexbox Photo Gallery; June 27th, 2025
+            3. Lab - Build a Page of Playing Cards; June 27th, 2025 - June 28th, 2025
+            4. Review - CSS Flexbox Review; June 28th, 2025
+            5. Quiz - CSS Flexbox Quiz, 19/20; June 28th, 2025
+
+        10. Typography - 76/78 Steps Complete; June 28
+            1. Lecture - Working with CSS Fonts; June 28th, 2025
+            2. Workshop - Build a Nutritional Label; June 28th, 2025
+            3. Lab - Build a Newspaper Article; June 28th, 2025
+            4. Review - CSS Typography Review; 
+            5. Quiz - CSS Typography Quiz
+
+        11. Accessibility - 0/72 Steps Complete
+            1. Lecture - Best Practices for Accessibility and CSS
+            2. Workshop - Build a Quiz Webpage
+            3. Lab - Build a Tribute Page
+            4. Review - CSS Accessibility Review
+            5. Quiz - CSS Accessibility Quiz
+
+        12. Positioning
+            1. Lecture - Understanding How to Work with Floats and Positioning in CSS
+            2. Workshop - Build a Cat Painting
+            3. Lab - Build a House Painting
+            4. Review - CSS Positioning Review 
+            5. Quiz - CSS Positioning Quiz
+
+        13. Attribute Selectors
+            1. Lecture - Working with Attribute Selectors
+            2. Workshop - Build a Balance Sheet
+            3. Lab - Build a Book Inventory App
+            4. Review - CSS Attribute Selectors Review
+            5. Quiz - CSS Attribute Selectors Quiz
+
+        14. Responsive Design
+            1. Lecture - Best Practices for Responsive Web Design
+            2. Workshop - Design a Piano
+            3. Lab - Build a Technical Documentation Page
+            4. Review - Responsive Web Design Review
+            5. Quiz - Responsive Web Design Quiz
+
+        15. Variables
+            1. Lecture - Working with CSS Variables
+            2. Workshop - Build a City Skyline
+            3. Lab - Build an Availability Table
+            4. Review - CSS Variables Review
+            5. Quiz - CSS Variables Quiz
+
+        16. Grid
+            1. Lecture - Working with CSS Grid
+            2. Workshop - Build a Magazine
+            3. Lab - Design a Magazine Layout
+            4. Lecture - Debugging CSS
+            5. Lab - Build a Product Landing Page
+            6. Review - CSS Grid Review
+            7. Quiz - CSS Grid Quiz
+
+        17. Animations
+            1. Lecture - Animations and Accessibility
+            2. Workshop - Build an Animated Ferris Wheel
+            3. Lab - Build a Moon Orbit
+            4. Workshop - Build a Flappy Penguin
+            5. Build a Personal Portfolio
+            6. Review - CSS Animations Review
+            7. Quiz - CSS Animations Review
+
+        18. CSS Review
+            1. CSS Review
+
+    JavaScript - 0/896 Steps Complete
+        1. Code Editors
+
+        2. Variables and Strings
+
+        3. Booleans and Numbers
+
+        4. Functions
+
+        5. Arrays
+
+        6. Objects
+
+        7. Loops
+
+        8. JavaScript Fundamentals Review
+
+        9. Higher Order Functions and Callbacks
+
+        10. DOM Manipulation and Events
+
+        11. JavaScript and Accessibility
+
+        12. Debugging
+
+        13. Basic Regex
+
+        14. Form Validation
+
+        15. Dates
+
+        16. Audio and Video Events
+
+        17. Maps and Sets
+
+        18. localStorage and CRUD Operations
+
+        19. Classes
+
+        20. Recursion
+
+        21. Functional Programming
+
+        22. Asynchronous JavaScript
+
+    Front End Libraries - 0/179 Steps complete
+        1. React Fundamentals
+
+        2. React State, Hooks, and Routing
+
+        3. Performance
+
+        4. Testing
+
+        5. CSS Libraries and Frameworks
+
+        6. TypeScript Fundamentals
+
+    Python - 0/0 Steps Complete
+        1. Python Basics
+
+        2. Loops and Sequences
+
+        3. Dictionaries and Sets
+
+        4. Error Handling
+
+        5. Classes and Objects
+
+        6. Object-Oriented Programming (OOP)
+
+        7. Linear Data Structures
+
+        8. Algorithms
+
+        9. Graphs and Trees
+
+        10. Dynamic Programming
+
+    Relational Databases
+        1. Bash Fundamentals
+
+        2. Relational Databases
+
+        3. Bash Scripting
+
+        4. SQL and Bash
+
+        5. Git
+
+    Backend JavaScript 0/0 Steps Complete
+        1. Node.js Core Libraries
+
+        2. Node Package Manager
+
+        3. HTTP and Web Standards Model
+
+        4. REST API and Web Services
+
+        5. Introduction to Express
+
+        6. Express Middleware
+
+        7. Error Handling in Express
+
+        8. WebSockets
+
+        9. Node and SQL
+
+        10. Security and Privacy
+
+        11. Authentication
+
+        12. Tooling and Deployment
+
+    Career
+        1. How to Get a Developer Job
+
+        2. Capstone Project
+
+        3. Certified Full Stack Developer Exam
+
+    Elements Added Post Section Completion - 1/1 Steps Complete; June 23rd, 2025
+    1. HTML/Basic HTML/Lab - Debug a Pet Adoption Page. *Noticed and Completed June 23rd, 2025*
