@@ -1,0 +1,71 @@
+/* so FCC didn't like me using <div> elements as borders orrr nesting my .date and .author within a <div class ="address" with flex box styling soo all of that has been removed in this version.. It also didn' t like me manually setting my font-weight values+i forgot some additional styling on my .text::first-letter selector */
+
+html {
+    font-size: 24px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.newspaper {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.name {
+    font-family: "Times New Roman", serif;
+    font-size: 2rem;
+}
+
+.name,
+.author {
+    text-transform: uppercase;
+}
+
+.name,
+.headline,
+.sub-headline {
+    text-align: center;
+}
+
+.date .author {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.headline {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.sub-headline {
+    font-weight: 100;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.text {
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+.text::first-letter {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.border {
+    border: 3px solid navy;
+}
+
+.border-small {
+    border: 1px solid rgba(113, 193, 224, 0.726);
+    margin: 0;
+}
