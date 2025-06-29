@@ -54,7 +54,7 @@ Full Stack Developer Certification
         5. HTML Review 1/1 Step Complete; on June 20th, 2025
         1. HTML Review; June 20th
 
-    CSS - 531/1155 Steps Complete, as of June 28th, 2025 at 7:20 p.m. (SO CLOSE TO 50% DONE!)
+    CSS - 533/1155 Steps Complete, as of June 28th, 2025 at 7:20 p.m. (SO CLOSE TO 50% DONE!)
         Begun June 20th, 2025 at 11p.m.
 
         1. Computer Basics 16/16 Steps Complete; June 20th - June 21st
@@ -133,21 +133,21 @@ Full Stack Developer Certification
             4. Review - CSS Typography Review; June 29th, 2025
             5. Quiz - CSS Typography Quiz, 20/20;  June 29th, 2025
 
-        11. Accessibility - 0/72 Steps Complete
-            1. Lecture - Best Practices for Accessibility and CSS
+        11. Accessibility - 2/72 Steps Complete; June 29th, 2025 - 
+            1. Lecture - Best Practices for Accessibility and CSS; June 29th, 2025
             2. Workshop - Build a Quiz Webpage
             3. Lab - Build a Tribute Page
             4. Review - CSS Accessibility Review
             5. Quiz - CSS Accessibility Quiz
 
-        12. Positioning
+        12. Positioning - 0/88 Steps Complete
             1. Lecture - Understanding How to Work with Floats and Positioning in CSS
             2. Workshop - Build a Cat Painting
             3. Lab - Build a House Painting
             4. Review - CSS Positioning Review 
             5. Quiz - CSS Positioning Quiz
 
-        13. Attribute Selectors
+        13. Attribute Selectors - 0/72 Steps Complete;
             1. Lecture - Working with Attribute Selectors
             2. Workshop - Build a Balance Sheet
             3. Lab - Build a Book Inventory App
