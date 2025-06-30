@@ -154,21 +154,21 @@ Full Stack Developer Certification
             4. Review - CSS Attribute Selectors Review
             5. Quiz - CSS Attribute Selectors Quiz
 
-        14. Responsive Design
+        14. Responsive Design - 0/38 Steps Complete
             1. Lecture - Best Practices for Responsive Web Design
             2. Workshop - Design a Piano
             3. Lab - Build a Technical Documentation Page
             4. Review - Responsive Web Design Review
             5. Quiz - Responsive Web Design Quiz
 
-        15. Variables
+        15. Variables - 0/120 Steps Complete
             1. Lecture - Working with CSS Variables
             2. Workshop - Build a City Skyline
             3. Lab - Build an Availability Table
             4. Review - CSS Variables Review
             5. Quiz - CSS Variables Quiz
 
-        16. Grid
+        16. Grid - 0/92 Steps Complete
             1. Lecture - Working with CSS Grid
             2. Workshop - Build a Magazine
             3. Lab - Design a Magazine Layout
@@ -177,7 +177,7 @@ Full Stack Developer Certification
             6. Review - CSS Grid Review
             7. Quiz - CSS Grid Quiz
 
-        17. Animations
+        17. Animations - 0/139 Steps Complete
             1. Lecture - Animations and Accessibility
             2. Workshop - Build an Animated Ferris Wheel
             3. Lab - Build a Moon Orbit
@@ -186,7 +186,7 @@ Full Stack Developer Certification
             6. Review - CSS Animations Review
             7. Quiz - CSS Animations Review
 
-        18. CSS Review
+        18. CSS Review - 0/1 Steps Complete
             1. CSS Review
 
     JavaScript - 0/896 Steps Complete
