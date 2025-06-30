@@ -140,12 +140,12 @@ Full Stack Developer Certification
             4. Review - CSS Accessibility Review; June 29th, 2025
             5. Quiz - CSS Accessibility Quiz, 10/10; June 29th, 2025
 
-        12. Positioning - 0/88 Steps Complete
-            1. Lecture - Understanding How to Work with Floats and Positioning in CSS; June 29th
-            2. Workshop - Build a Cat Painting
+        12. Positioning - 87/88 Steps Complete
+            1. Lecture - Understanding How to Work with Floats and Positioning in CSS; June 29th, 2025
+            2. Workshop - Build a Cat Painting; June 29th, 2025
             3. Lab - Build a House Painting
-            4. Review - CSS Positioning Review 
-            5. Quiz - CSS Positioning Quiz
+            4. Review - CSS Positioning Review; June 29th, 2025
+            5. Quiz - CSS Positioning Quiz, 19/20; June 29th, 2025
 
         13. Attribute Selectors - 0/72 Steps Complete;
             1. Lecture - Working with Attribute Selectors
