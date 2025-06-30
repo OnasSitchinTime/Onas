@@ -133,9 +133,9 @@ Full Stack Developer Certification
             4. Review - CSS Typography Review; June 29th, 2025
             5. Quiz - CSS Typography Quiz, 20/20;  June 29th, 2025
 
-        11. Accessibility - 2/72 Steps Complete; June 29th, 2025 - 
+        11. Accessibility - 69/72 Steps Complete; June 29th, 2025 - 
             1. Lecture - Best Practices for Accessibility and CSS; June 29th, 2025
-            2. Workshop - Build a Quiz Webpage
+            2. Workshop - Build a Quiz Webpage; June 29th, 2025
             3. Lab - Build a Tribute Page
             4. Review - CSS Accessibility Review
             5. Quiz - CSS Accessibility Quiz
