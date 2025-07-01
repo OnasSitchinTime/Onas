@@ -152,7 +152,7 @@ Full Stack Developer Certification
             2. Workshop - Build a Balance Sheet;
             3. Lab - Build a Book Inventory App
             4. Review - CSS Attribute Selectors Review; June 30th, 2025
-            5. Quiz - CSS Attribute Selectors Quiz; June 30th, 2025
+            5. Quiz - CSS Attribute Selectors Quiz 8/10 - Retook for 9/10; June 30th, 2025
 
         14. Responsive Design - 0/38 Steps Complete
             1. Lecture - Best Practices for Responsive Web Design
