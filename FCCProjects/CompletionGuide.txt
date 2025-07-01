@@ -147,9 +147,9 @@ Full Stack Developer Certification
             4. Review - CSS Positioning Review; June 29th, 2025
             5. Quiz - CSS Positioning Quiz, 19/20; June 29th, 2025
 
-        13. Attribute Selectors - 5/72 Steps Complete; June 30th, 2025
+        13. Attribute Selectors - 71/72 Steps Complete; June 30th, 2025
             1. Lecture - Working with Attribute Selectors; June 30th, 2025
-            2. Workshop - Build a Balance Sheet;
+            2. Workshop - Build a Balance Sheet; June 30th, 2025
             3. Lab - Build a Book Inventory App
             4. Review - CSS Attribute Selectors Review; June 30th, 2025
             5. Quiz - CSS Attribute Selectors Quiz 8/10 - Retook for 9/10; June 30th, 2025
