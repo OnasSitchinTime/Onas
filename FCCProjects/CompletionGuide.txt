@@ -161,12 +161,12 @@ Full Stack Developer Certification
             4. Review - Responsive Web Design Review; July 1st, 2025
             5. Quiz - Responsive Web Design Quiz 20/20; July 1st, 2025
 
-        15. Variables - 0/120 Steps Complete
-            1. Lecture - Working with CSS Variables
-            2. Workshop - Build a City Skyline
+        15. Variables - 4/120 Steps Complete; July 1st, 2025
+            1. Lecture - Working with CSS Variables; July 1st, 2025
+            2. Workshop - Build a City Skyline; July 1st, 2025
             3. Lab - Build an Availability Table
-            4. Review - CSS Variables Review
-            5. Quiz - CSS Variables Quiz
+            4. Review - CSS Variables Review; July 1st, 2025
+            5. Quiz - CSS Variables Quiz, 20/20; July 1st, 2025
 
         16. Grid - 0/92 Steps Complete
             1. Lecture - Working with CSS Grid

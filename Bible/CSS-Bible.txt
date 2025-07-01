@@ -1090,3 +1090,68 @@ RESPONSIVE WEB DESIGN - REVIEW GUIDE
                     width: 960px;
                 }
             }
+
+CSS VARIABLES - REVIEW GUIDE
+    CSS Custom Properties (CSS Variables)
+        Definition: CSS custom properties, also known as CSS variables, are entities defined by CSS authors that contain specific values to be reused throughout a document. They are a powerful feature that allows for more efficient, maintainable, and flexible stylesheets. Custom properties are particularly useful in creating themeable designs. You can define a set of properties for different themes.
+            Syntax Examples:
+            :root {
+                --bg-color: white;
+                --text-color: black;
+            }
+
+            .dark-theme {
+                --bg-color: #333;
+                --text-color: white;
+            }
+
+            body {
+                background-color: var(--bg-color);
+                color: var(--text-color);
+            }
+
+    The @property Rule
+        Definition: The @property rule is a powerful CSS feature that allows developers to define custom properties with greater control over their behavior, including how they animate and their initial values.
+            Example Code:
+            @property --property-name {
+                syntax: '<type>';
+                inherits: true | false: 
+                initial-value: <value>;
+            }
+
+        --property-name: This is the name of the custom property you're defining. Like all custom properties, it must start with two dashes. --property-name can be things like <color>, <length>, <number>, <percentage>, or more complex types.
+
+        syntax: This defines the type of the property.
+
+        inherits: This specifies whether the property should inherit its value from its parent element.
+
+        initial-value: This sets the default value of the property.
+
+        Gradient Examples Using the @property Rule: This example creates a gradient that smoothy animates when the element is hovered over. 
+            HTML Syntax:
+            <div class="gradient-box></div>
+            CSS Syntax:
+            @property --gradient-angle {
+                syntax: "angle>";
+                inheritys: false;
+                initital-value: 0deg;
+            }
+
+            .graditent-box {
+                width: 100px;
+                height: 100px;
+                background: linear-gradient(var(--gradient-angle), red, blue);
+                transition: --gradient-angle 0.5s;
+            }
+
+            .gradient-box: hover {
+                --gradient0angle: 90deg;
+            }
+
+        Fallbacks: When using the custom property, you can provide a fallback value using the var() function, just as you would with standard custom properties:
+            Example Code: 
+            .button {
+                background-color: var(--main-color, #3498db);
+            }
+
+..
