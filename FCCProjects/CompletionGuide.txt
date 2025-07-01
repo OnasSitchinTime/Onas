@@ -54,7 +54,7 @@ Full Stack Developer Certification
         5. HTML Review 1/1 Step Complete; on June 20th, 2025
         1. HTML Review; June 20th
 
-    CSS - 696/1155 Steps Complete, as of June 30th at 5:39 p.m.
+    CSS - 803/1155 Steps Complete, as of July 1st, 2025 at 3:50 p.m.
         Begun June 20th, 2025 at 11p.m.
 
         1. Computer Basics 16/16 Steps Complete; June 20th - June 21st
@@ -154,10 +154,10 @@ Full Stack Developer Certification
             4. Review - CSS Attribute Selectors Review; June 30th, 2025
             5. Quiz - CSS Attribute Selectors Quiz 8/10 - Retook for 9/10; June 30th, 2025
 
-        14. Responsive Design - 0/38 Steps Complete; July 1st, 2025
+        14. Responsive Design - 38/38 Steps Complete; July 1st, 2025
             1. Lecture - Best Practices for Responsive Web Design; Juy 1st, 2025
-            2. Workshop - Design a Piano
-            3. Lab - Build a Technical Documentation Page
+            2. Workshop - Design a Piano; July 1st, 2025
+            3. Lab - Build a Technical Documentation Page; July 1st, 2025
             4. Review - Responsive Web Design Review; July 1st, 2025
             5. Quiz - Responsive Web Design Quiz 20/20; July 1st, 2025
 
