@@ -147,19 +147,19 @@ Full Stack Developer Certification
             4. Review - CSS Positioning Review; June 29th, 2025
             5. Quiz - CSS Positioning Quiz, 19/20; June 29th, 2025
 
-        13. Attribute Selectors - 71/72 Steps Complete; June 30th, 2025
+        13. Attribute Selectors - 72/72 Steps Complete; June 30th, 2025 - July 1st, 2025
             1. Lecture - Working with Attribute Selectors; June 30th, 2025
             2. Workshop - Build a Balance Sheet; June 30th, 2025
-            3. Lab - Build a Book Inventory App
+            3. Lab - Build a Book Inventory App; June 30th, 2025 - July 1st, 2025
             4. Review - CSS Attribute Selectors Review; June 30th, 2025
             5. Quiz - CSS Attribute Selectors Quiz 8/10 - Retook for 9/10; June 30th, 2025
 
-        14. Responsive Design - 0/38 Steps Complete
-            1. Lecture - Best Practices for Responsive Web Design
+        14. Responsive Design - 0/38 Steps Complete; July 1st, 2025
+            1. Lecture - Best Practices for Responsive Web Design; Juy 1st, 2025
             2. Workshop - Design a Piano
             3. Lab - Build a Technical Documentation Page
-            4. Review - Responsive Web Design Review
-            5. Quiz - Responsive Web Design Quiz
+            4. Review - Responsive Web Design Review; July 1st, 2025
+            5. Quiz - Responsive Web Design Quiz 20/20; July 1st, 2025
 
         15. Variables - 0/120 Steps Complete
             1. Lecture - Working with CSS Variables
