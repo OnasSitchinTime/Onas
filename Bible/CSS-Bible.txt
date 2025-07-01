@@ -919,7 +919,6 @@ CSS POSITIONING - REVIEW GUIDE
                 background-color: coral;
             }
             
-
     Fixed And Sticky Positioning
         Fixed Positioning: When an element is positioned with position: fixed, it is removed from the normal document flow and placed relative to the viewport, meaning it stays in the same position even when the user scrolls. This is often used for elements like headers or navigation bars that need to remain visible at all times.
             Example Code:
@@ -956,3 +955,47 @@ CSS POSITIONING - REVIEW GUIDE
                 width: 100px;
                 height: 100px;
             }
+
+CSS ATTRIBUTE SELECTORS - REVIEW GUIDE
+    Working With Different Attribute Selectors and Links 
+        Definition: The attribute selector allows you to target HTML elements based on their attributes like the href or title attributes.
+            Example Code:
+            a[href] {
+                color: blue;
+                text-decoration: underline;
+            }
+
+        title Attribute: This attribute provides additional information about an element.
+            Example Code:
+            a[title] {
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+    Targeting Elements With The lang And data-lang Attribute
+        lang Attribute: This attribute is used in HTML to specify the language of the content within an element. You might want to style elements differently based on the language they are written in, especially on a multilingual website.
+            Example Code:
+            p[lang="en"] {
+                font-style: italic;
+            }
+
+        data-lang Attribute: Custon data attributes like the data-lang attribute are commonly used to store additional information in elements, such as specifying the language used within a specific section of text.
+            Example Code:
+                div[data-lang="fr"] {
+                    color: blue;
+                }
+
+    Working With The Attribute Selector, Ordered List Elements And The Type Attribute 
+        type Attribute: When working with ordered lists in HTML, the type attribute allows you to specify the style of numbering used, such as numerical, alphabetical, or Roman numerals.
+            Example Codes:
+            /*Example targeting uppercase alphabetical numbering*/
+            ol[type="A"] {
+                color: purple;
+                font-weight: bold;
+            }
+
+            /*Example targeting lowercase Roman numerals*/
+            ol[type="i"] {
+                color: green;
+            }
+

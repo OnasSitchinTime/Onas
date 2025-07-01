@@ -54,7 +54,7 @@ Full Stack Developer Certification
         5. HTML Review 1/1 Step Complete; on June 20th, 2025
         1. HTML Review; June 20th
 
-    CSS - 693/1155 Steps Complete, as of June 29th, 2025 at 5:47 p.m.
+    CSS - 696/1155 Steps Complete, as of June 30th at 5:39 p.m.
         Begun June 20th, 2025 at 11p.m.
 
         1. Computer Basics 16/16 Steps Complete; June 20th - June 21st
@@ -147,12 +147,12 @@ Full Stack Developer Certification
             4. Review - CSS Positioning Review; June 29th, 2025
             5. Quiz - CSS Positioning Quiz, 19/20; June 29th, 2025
 
-        13. Attribute Selectors - 0/72 Steps Complete;
-            1. Lecture - Working with Attribute Selectors
-            2. Workshop - Build a Balance Sheet
+        13. Attribute Selectors - 5/72 Steps Complete; June 30th, 2025
+            1. Lecture - Working with Attribute Selectors; June 30th, 2025
+            2. Workshop - Build a Balance Sheet;
             3. Lab - Build a Book Inventory App
-            4. Review - CSS Attribute Selectors Review
-            5. Quiz - CSS Attribute Selectors Quiz
+            4. Review - CSS Attribute Selectors Review; June 30th, 2025
+            5. Quiz - CSS Attribute Selectors Quiz; June 30th, 2025
 
         14. Responsive Design - 0/38 Steps Complete
             1. Lecture - Best Practices for Responsive Web Design
