@@ -1,0 +1,44 @@
+:root {
+    --color0: "#fff";
+    --color1: "#cbfacb";
+    --color2: "#97fa97";
+    --color3: "#68e668";
+    --color4: "#48be48";
+    --color5: "#309b30";
+    --solid-border: "2px solid black";
+    --dashed-border: "2px dashed black";
+}
+
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    margin: 0;
+}
+
+th,
+td {
+    width: 12.5%;
+    font-size: 10px;
+}
+
+th[class="header"],
+span[class="header"] {
+    font-size: 16px;
+}
+
+.avaliable-0 {
+    background-color: var(--color0);
+}
+
+.avaliable-1 {
+    background-color: var(--color1);
+}
+
+.avaliable-2 {
+    background-color: var(--color2);
+}
+
+.available-3 {
+    background: var(--color3);
+}
