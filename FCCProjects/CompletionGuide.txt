@@ -54,7 +54,7 @@ Full Stack Developer Certification
         5. HTML Review 1/1 Step Complete; on June 20th, 2025
         1. HTML Review; June 20th
 
-    CSS - 923/1155 Steps Complete, as of July 1st, 2025 at 10:10 p.m.
+    CSS - 1010/1155 Steps Complete, as of July 2nd, 2025 @ 8:05p.m.
         Begun June 20th, 2025 at 11p.m.
 
         1. Computer Basics 16/16 Steps Complete; June 20th - June 21st
@@ -168,9 +168,9 @@ Full Stack Developer Certification
             4. Review - CSS Variables Review; July 1st, 2025
             5. Quiz - CSS Variables Quiz, 20/20; July 1st, 2025
 
-        16. Grid - 0/92 Steps Complete; July 
-            1. Lecture - Working with CSS Grid
-            2. Workshop - Build a Magazine
+        16. Grid - 87/92 Steps Complete; July 2nd, 2025
+            1. Lecture - Working with CSS Grid; July 2nd, 2025
+            2. Workshop - Build a Magazine; July 2nd, 2025
             3. Lab - Design a Magazine Layout
             4. Lecture - Debugging CSS
             5. Lab - Build a Product Landing Page
