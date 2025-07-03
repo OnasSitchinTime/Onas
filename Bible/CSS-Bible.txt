@@ -1203,7 +1203,7 @@ CSS GRID BASICS - REVIEW GUIDE
             Basic Syntax: 
                 .container {
                     display: grid;
-                    grid-template-columns: repeat (3, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
                 }
 
         Explicit Grid: You can specify the number of lines or tracks using the grid-template-columns or grid-template-rows properties.
