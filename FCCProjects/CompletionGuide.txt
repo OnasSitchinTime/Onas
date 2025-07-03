@@ -168,12 +168,12 @@ Full Stack Developer Certification
             4. Review - CSS Variables Review; July 1st, 2025
             5. Quiz - CSS Variables Quiz, 20/20; July 1st, 2025
 
-        16. Grid - 89/92 Steps Complete; July 2nd
+        16. Grid - 91/92 Steps Complete; July 2nd
             1. Lecture - Working with CSS Grid; July 2nd, 2025
             2. Workshop - Build a Magazine; July 2nd, 2025
-            3. Lab - Design a Magazine Layout
-            4. Lecture - Debugging CSS
-            5. Lab - Build a Product Landing Page
+            3. Lab - Design a Magazine Layout; July 2nd, 2025
+            4. Lecture - Debugging CSS; July 2nd, 2025
+            5. Lab - Build a Product Landing Page; July 
             6. Review - CSS Grid Review; July 2nd, 2025
             7. Quiz - CSS Grid Quiz, 17/20, 20/20; July 2nd, 2025
 
