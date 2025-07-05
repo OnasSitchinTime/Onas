@@ -54,8 +54,9 @@ Full Stack Developer Certification
         5. HTML Review 1/1 Step Complete; on June 20th, 2025
         1. HTML Review; June 20th
 
-    CSS - 1152/1155 Steps Complete, as of July 3rd, 2025 @ 7:54 p.m.
+    CSS - 1155/1155 Steps Complete
         Begun June 20th, 2025 at 11p.m.
+        Complete July 5th, 2025 at 11:05a.m.
 
         1. Computer Basics 16/16 Steps Complete; June 20th - June 21st
             1. Lecture - Understanding Computer, Internet, and Tooling Basics; June 20, 2025
@@ -177,17 +178,26 @@ Full Stack Developer Certification
             6. Review - CSS Grid Review; July 2nd, 2025
             7. Quiz - CSS Grid Quiz, 17/20, 20/20; July 2nd, 2025
 
-        17. Animations - 137/139 Steps Complete; July 3rd, 
+        17. Animations - 139/139 Steps Complete; July 5th, 2025 
             1. Lecture - Animations and Accessibility; July 3rd, 2025
             2. Workshop - Build an Animated Ferris Wheel; July 3rd, 2025
             3. Lab - Build a Moon Orbit; July 3rd, 2025
             4. Workshop - Build a Flappy Penguin; July 3rd, 2025
             5. Build a Personal Portfolio; July 4th, 2025
-            6. Review - CSS Animations Review
-            7. Quiz - CSS Animations Review
+            6. Review - CSS Animations Review; July 5th, 2025
+            7. Quiz - CSS Animations Review, 18/20; July 5th, 2025
 
-        18. CSS Review - 0/1 Steps Complete
-            1. CSS Review
+        18. CSS Review - 1/1 Steps Complete; July 5th, 2025
+            1. CSS Review; July 5th, 2025
+
+ONA'S PROTOTYPING
+
+    Begun July 5th, 2025 @ 11:07 a.m.
+        Sent First Draft for Review: 
+        Received Feedback: 
+        Sent Send Draft For Review: 
+
+Full Stack Developer Certification
 
     JavaScript - 0/896 Steps Complete
         1. Code Editors
